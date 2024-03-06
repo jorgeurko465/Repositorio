@@ -1,0 +1,72 @@
+
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+fieldset {background-color: rgb(160, 114, 114); 
+                border: 30px solid dotted; margin: 10px auto; text-align: center;}
+.Miclase {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+    background-color: aquamarine;
+    margin: left:auto
+    margin: right:auto;
+    padding: 50px;
+    border: 10px solid black;
+    border-radius: 80px;    
+}
+.Div1 {
+    background-color: black;
+}
+.Div2 {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    border: auto solid black;
+    border-radius: 80px;
+    margin: left:auto
+    margin: right:auto;
+    width: 300px;
+    height: 300px;
+}
+
+/* 
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+  }
+  
+  .dropbtn {
+    background-color: #000305;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    overflow: auto;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2.;
+  }
+  .dropdown:hover
+ .dropdown-content {
+        display: block;
+    }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+       
+*/

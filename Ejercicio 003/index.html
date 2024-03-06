@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi primera calculadora en web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/calculadora.js"></script> 
+        <!--<stylesheet href="./css/estilo.css">-->
+        <link rel="stylesheet" href="./css/estilo.css">
+        <estilo class="css"></estilo>
+        <!--<style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>-->
+         <!--<style>
+            .contenedor{
+                h1 {text-align: center;}
+                p {text-align: center;}
+                div {text-align: center;}
+            }
+        </style> -->
+        <h1 class="miestilo">Esto es una prueba de estilo</h1>
+    </head>
+    <body>
+        <div style="width:500px; height:650px; border-style:solid; border-width: 1.5px;">
+            <h1 class="miestilo">CALCULADORA</h1>
+            <form>
+                <input type="number" id="num1" name="num1" placeholder="introduce primer numero">
+                <input type="number" id="num2" name="num2" placeholder="introduce segundo numero numero">
+                <!-- <select name="operacion">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>-->
+                <p><button onclick='suma()'>suma</button></p>
+                <p><button onclick='resta()'>resta</button></p>
+                <p><button onclick='division()'>division</button></p>
+                <p><button onclick='multiplicacion()'>multiplicacion</button></p>
+                <!--<input type="button" name="resultado" value="=" onclick="operar()">-->
+            </form>  
+        </div>
+        <div>
+            <h1><b>Resultado</b></h1>
+            <input type ="number" name="resultado" id="resultado">
+        </div>
+    </body>
+</html>
