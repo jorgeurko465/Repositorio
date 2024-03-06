@@ -1,0 +1,6 @@
+
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+fieldset {background-color: rgb(160, 114, 114); 
+                border: 30px solid dotted; margin: 10px auto; text-align: center;}
